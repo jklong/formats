@@ -1,6 +1,9 @@
 //! SubjectPublicKeyInfo tests
+#[cfg(feature = "fingerprint")]
 use core::convert::TryFrom;
+#[cfg(feature = "fingerprint")]
 use hex_literal::hex;
+#[cfg(feature = "fingerprint")]
 use spki::SubjectPublicKeyInfo;
 
 #[cfg(feature = "fingerprint")]
