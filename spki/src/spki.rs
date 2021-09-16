@@ -6,11 +6,14 @@ extern crate base64ct;
 extern crate sha2;
 
 use crate::AlgorithmIdentifier;
+
 #[cfg(feature = "alloc")]
 use alloc::string::String;
 #[cfg(all(feature = "fingerprint", feature = "alloc"))]
 use base64ct::{Base64, Encoding};
 use core::convert::TryFrom;
+#[cfg(feature = "fingerprint")]
+use der::Encoder;
 use der::{
     asn1::{Any, BitString},
     Decodable, Encodable, Error, Message, Result,

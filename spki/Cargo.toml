@@ -28,6 +28,7 @@ std = ["der/std"]
 fingerprint = ["sha2"]
 alloc = ["base64ct/alloc"]
 
+
 [package.metadata.docs.rs]
 all-features = true
 rustdoc-args = ["--cfg", "docsrs"]

@@ -10,7 +10,6 @@ use spki::SubjectPublicKeyInfo;
 // Taken from pkcs8/tests/public_key.rs
 /// Ed25519 `SubjectPublicKeyInfo` encoded as ASN.1 DER
 const ED25519_DER_EXAMPLE: &[u8] = include_bytes!("examples/ed25519-pub.der");
-
 /// The SPKI fingerprint for `ED25519_SPKI_FINGERPRINT` as a Base64 string
 ///
 /// Generated using `cat ed25519-pub.der | openssl dgst -binary -sha256 | base64`
