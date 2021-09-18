@@ -8,7 +8,9 @@ members = [
     "pem-rfc7468",
     "pkcs1",
     "pkcs5",
+    "pkcs7",
     "pkcs8",
+    "pkcs12",
     "sec1",
     "spki",
     "x509"
