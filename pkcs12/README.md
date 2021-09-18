@@ -3,8 +3,16 @@ PKCS12 v1.1 (RFC 7292) Support
 
 A pure-Rust implementations of PKCS#12 v1.1 as per [RFC7292]
 
-## ROADMAP
+## v0.1 ROADMAP
+- [ ] OpenSSL pkcs12 compatibility
+- [ ] MS PFX compatibility
+- [ ] Single key w/ cert and chain
 
+## v0.2 ROADMAP
+- [ ] Many keys, many certs
+
+## v0.3 ROADMAP
+- [ ] Lesser used BagTypes
 
 ## TODO
 
